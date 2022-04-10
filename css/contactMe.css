@@ -1,0 +1,68 @@
+ /* Megan Chamberlin - 2022  */
+
+ body{
+    background-image: url('../images/travelPlaceholder.jpg');
+    background-color:#F2D0A4;
+    color: black;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 10%;
+    margin: 0;
+    margin-left: 50%;
+    background-color: #f2d0a4c4;
+    word-wrap: none;
+}
+h2{
+    margin:0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfo{
+    margin-left: 25px;
+}
+.contactInfo p{
+    font-size: 1.25em;
+}
+.contactForm{
+    width:500px;
+    padding: 5% 5% 5% 5%;
+    background-color: white;
+    border-radius: 30px;
+    justify-content: center;
+    
+}
+.inputbox input{
+    position: relative;
+    margin-bottom: 2%;
+    width: 100%;
+    font-size: 1.5em;
+}
+.msgbox textarea{
+    font-size: 1.5em;
+    font-family: inherit;
+}
+.contactForm .inputbox input[type="submit"]{
+    background: #0094C6;
+    width: 100px;
+    padding: 10px;
+    border-top: 3px solid #5CD6FF;
+    border-left: 2px solid #5CD6FF;
+    border-bottom: 3px solid rgba(87, 87, 87, 0.562);
+    border-right: 2px solid rgba(87, 87, 87, 0.562);
+    border-radius: 10%;
+    cursor: pointer;
+    font-weight: 1000;
+    color:white
+}
+    
+    

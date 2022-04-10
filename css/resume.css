@@ -1,0 +1,80 @@
+ /* Megan Chamberlin - 2022  */
+
+/* utility */
+body{
+   background-color:#ffffff;
+   font-family: Arial;
+   color:black;
+   margin: 0%; 
+}
+
+/*main sidebar*/
+main{
+    display: flex;
+    align-content: row;
+    align-items: stretch;
+}
+
+#resume{
+    flex-grow: 3;
+}
+#sidebar{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 2;
+    background-color: black;
+    max-width: 25em;
+    color:#ffffff;
+}
+#sidebar figure{
+    background-color: #ffffff;
+    padding: 10px;
+}
+#sidebar img{
+    max-width: 100%;
+    height: auto;
+}
+
+#skills{
+    margin:5%
+}
+
+/* resume */
+#resume div{
+    margin: 0% 5%;
+}
+
+/* title */
+.title{
+    font-size:50px;
+    font-weight: bolder;
+    text-align: center;
+}
+h1{
+    
+    border-bottom: 3px solid black;
+}
+
+/* Job Experience */
+
+.jobNameAndDate{
+   display: flex;
+   justify-content: space-between;
+}
+h2{
+    margin: 0%;
+}
+h3{
+    margin: 0%;
+}
+
+.eduInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+
+
+
