@@ -2,10 +2,17 @@
 $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
-$formcontent="From: $name \n Message: $message";
-$recipient = "megansachamberlin@gmail.com";
+
+$to = "megansachamberlin@gmail.com";
 $subject = "Contact Form";
+
+$formcontent="From: $name \n Message: $message";
+
+
 $mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "Thank You!" . " -" . "<a href='form.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
+if($email != NULL){
+    mail($to, $subject, $formcontent, $mailheader);
+}
+echo "Thank You!"
+header("Location:last.html");
 ?>
