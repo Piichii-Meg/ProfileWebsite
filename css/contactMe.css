@@ -2,7 +2,6 @@
 
  body{
     background-image: url('../images/travelPlaceholder.jpg');
-    background-color:#F2D0A4;
     color: black;
     box-sizing: border-box;
 }
@@ -15,12 +14,10 @@ main{
     margin: 0;
     margin-left: 50%;
     background-color: #f2d0a4c4;
-    word-wrap: none;
 }
 h2{
     margin:0;
 }
-
 
 .container{
     display: flex;
