@@ -1,18 +1,13 @@
 <?php 
-$name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['message'];
+if (isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message']; 
 
-$to = "megansachamberlin@gmail.com";
-$subject = "Contact Form";
+    $mailTo = "meganisastar@msn.com"
+    $headers = "From: ".$email;
+    
 
-$formcontent="From: $name \n Message: $message";
-
-
-$mailheader = "From: $email \r\n";
-if($email != NULL){
-    mail($to, $subject, $formcontent, $mailheader);
+    mail($mailTo, $message, $headers);
+    header("Location: index.php?mailsend");
 }
-echo "Thank You!"
-header("Location:last.html");
-?>
