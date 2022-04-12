@@ -4,51 +4,63 @@
     background-image: url('../images/travelPlaceholder.jpg');
     color: black;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 main{
     display: flex;
-    justify-content: center;
-    height: 100vh;
-    padding-top: 10%;
-    margin: 0;
-    margin-left: 50%;
-    background-color: #f2d0a4c4;
 }
+
 h2{
     margin:0;
 }
-
 .container{
     display: flex;
     flex-direction: column;
 }
 
-.contactInfo{
+#contact{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2d0a4c4;
+    padding-left: 10%;
+    width:40%;
+    min-width:600px;
+}
+.contactInfo{           
     margin-left: 25px;
 }
-.contactInfo p{
+.contactInfo p, a{
+    text-decoration: none;
+    color: black;
     font-size: 1.25em;
+    margin-top:0;
+    
 }
 .contactForm{
     width:500px;
     padding: 5% 5% 5% 5%;
     background-color: white;
     border-radius: 30px;
-    justify-content: center;
+    justify-content: center;   
+}
+.contactForm h2{
+    margin-bottom: 5px;
     
 }
-.inputbox input{
+
+input{
     position: relative;
     margin-bottom: 2%;
     width: 100%;
     font-size: 1.5em;
 }
-.msgbox textarea{
+textarea{
     font-size: 1.5em;
     font-family: inherit;
 }
-.contactForm .inputbox input[type="submit"]{
+button{
     background: #0094C6;
     width: 100px;
     padding: 10px;

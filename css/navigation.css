@@ -16,13 +16,14 @@ header {
 #menu_bar {
    margin: 0%;
    overflow: hidden;
-   background-image: linear-gradient(to bottom right, #480A32, #160d13); ;
+   background-image: linear-gradient(to bottom right, #6a134b, #160d13); 
 }
 
 #menu_bar li{
    float: left;
    display: inline;
 }
+
 li a{
    display: block;
    color: white;  
