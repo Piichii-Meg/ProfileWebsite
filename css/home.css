@@ -6,7 +6,6 @@ main{
 }
 figure{
     display: flex;
-    max-width: 50%;
     height: auto;
     overflow:hidden;
     float: left;
