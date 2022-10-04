@@ -6,7 +6,8 @@ main{
 }
 figure{
     display: flex;
-    height: 93.8vh;  /* couldnt figure out how to get the image to fill the window without being larger then window */
+    max-width: 50%;
+    height: auto;
     overflow:hidden;
     float: left;
     margin: 0;
